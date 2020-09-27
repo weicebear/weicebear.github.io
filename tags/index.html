@@ -93,17 +93,6 @@
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>友情链接</span>
-    </a>
-    
-  </li>
-  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -170,17 +159,6 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			友情链接
 		</a>
           
         </li>
@@ -315,19 +293,19 @@
                 
                 
                 
-                <a href="/categories/Java%E5%9F%BA%E7%A1%80/" title="Java基础: 1">
+                <a href="/categories/Markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="Markdown 使用教程: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">Java基础
+                            style="background-color: #F9EBEA;">Markdown 使用教程
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="Markdown 使用教程: 1">
+                <a href="/categories/Java%E5%9F%BA%E7%A1%80/" title="Java基础: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Markdown 使用教程
+                            style="background-color: #F5EEF8;">Java基础
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -358,7 +336,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"笔记","weight":1,"link":"http://weicebear.github.io/tags/笔记/"},{"text":"markdown","weight":1,"link":"http://weicebear.github.io/tags/markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"markdown","weight":1,"link":"http://weicebear.github.io/tags/markdown/"},{"text":"笔记","weight":1,"link":"http://weicebear.github.io/tags/笔记/"}], {
         autoResize: true
     });
 </script>
@@ -377,19 +355,19 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记: 1">
+                <a href="/tags/markdown/" title="markdown: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="笔记" style="background-color: #F9EBEA;">笔记
+                            data-tagname="markdown" style="background-color: #F9EBEA;">markdown
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/markdown/" title="markdown: 1">
+                <a href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="markdown" style="background-color: #F5EEF8;">markdown
+                            data-tagname="笔记" style="background-color: #F5EEF8;">笔记
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -434,7 +412,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"Java基础","max":2},{"name":"Markdown 使用教程","max":2}],
+            indicator: [{"name":"Markdown 使用教程","max":2},{"name":"Java基础","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -559,7 +537,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Java基础","value":1},{"name":"Markdown 使用教程","value":1}],
+                data: [{"name":"Markdown 使用教程","value":1},{"name":"Java基础","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -583,7 +561,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["笔记","markdown"]
+                data: ["markdown","笔记"]
             }
         ],
         yAxis: [
