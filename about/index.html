@@ -73,6 +73,17 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -137,6 +148,17 @@
 			    <i class="fa-fw fas fa-tags"></i>
 			
 			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
 		</a>
           
         </li>
@@ -258,18 +280,7 @@
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['你有没有尝试过 开心的滋味？','Have you ever tried to be happy？'],
-                        startDelay: 300,
-                        typeSpeed: 75,
-                        loop: true,
-                        backSpeed: 35,
-                        showCursor: true
-                    });
-                </script>
+                    个人博客
                 
             </div>
         </div>
@@ -517,7 +528,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Markdown 使用教程","value":1},{"name":"Java基础","value":1}],
+                data: [{"name":"Java基础","value":1},{"name":"Markdown 使用教程","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -541,7 +552,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["markdown","笔记"]
+                data: ["笔记","markdown"]
             }
         ],
         yAxis: [
