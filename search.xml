@@ -5,8 +5,8 @@
     
     <entry>
       <title>Java基础-笔记</title>
-      <link href="/2020/05/25/java-ji-chu-bi-ji/"/>
-      <url>/2020/05/25/java-ji-chu-bi-ji/</url>
+      <link href="/2020/05/27/java-ji-chu-bi-ji/"/>
+      <url>/2020/05/27/java-ji-chu-bi-ji/</url>
       
         <content type="html"><![CDATA[<h1 id="Java学习-restar"><a href="#Java学习-restar" class="headerlink" title="Java学习-restar"></a>Java学习-restar</h1><h2 id="第一章知识点"><a href="#第一章知识点" class="headerlink" title="第一章知识点"></a>第一章知识点</h2><p>1.JDK环境的安装：版本jdk1.8.0_161 <a href="https://dl.pconline.com.cn/download/1117483.html" target="_blank" rel="noopener">下载地址</a><br>注意不要下载错了，会有捆绑软件，安装方法与环境配置里面都有<br>2.</p>]]></content>
       
@@ -45,7 +45,7 @@
       
         <tags>
             
-            <tag> markdown </tag>
+            <tag> Markdown </tag>
             
         </tags>
       
