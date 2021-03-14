@@ -283,7 +283,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/6.jpg)');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -304,19 +304,28 @@
                 
                 
                 
-                <a href="/categories/Java%E5%9F%BA%E7%A1%80/" title="Java基础: 1">
+                <a href="/categories/Markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="Markdown 使用教程: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">Java基础
+                            style="background-color: #F9EBEA;">Markdown 使用教程
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Markdown-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="Markdown 使用教程: 1">
+                <a href="/categories/%E6%95%85%E4%BA%8B/" title="故事: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Markdown 使用教程
+                            style="background-color: #F5EEF8;">故事
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E7%AC%94%E8%AE%B0/" title="笔记: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">笔记
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -347,7 +356,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"笔记","weight":1,"link":"http://weicebear.github.io/tags/笔记/"},{"text":"Markdown","weight":1,"link":"http://weicebear.github.io/tags/Markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"Markdown","weight":1,"link":"http://weicebear.github.io/tags/Markdown/"},{"text":"故事","weight":1,"link":"http://weicebear.github.io/tags/故事/"},{"text":"java","weight":1,"link":"http://weicebear.github.io/tags/java/"}], {
         autoResize: true
     });
 </script>
@@ -366,19 +375,28 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记: 1">
+                <a href="/tags/Markdown/" title="Markdown: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="笔记" style="background-color: #F9EBEA;">笔记
+                            data-tagname="Markdown" style="background-color: #F9EBEA;">Markdown
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Markdown/" title="Markdown: 1">
+                <a href="/tags/%E6%95%85%E4%BA%8B/" title="故事: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Markdown" style="background-color: #F5EEF8;">Markdown
+                            data-tagname="故事" style="background-color: #F5EEF8;">故事
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/java/" title="java: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="java" style="background-color: #D5F5E3;">java
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -423,7 +441,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"Java基础","max":2},{"name":"Markdown 使用教程","max":2}],
+            indicator: [{"name":"Markdown 使用教程","max":2},{"name":"故事","max":2},{"name":"笔记","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -434,7 +452,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1],
+                    value : [1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -506,7 +524,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,2,0,0,0,0,0,0,0,0,0,0],
+                data: [0,0,2,0,0,0,0,0,0,0,0,0,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -548,7 +566,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Java基础","value":1},{"name":"Markdown 使用教程","value":1}],
+                data: [{"name":"Markdown 使用教程","value":1},{"name":"故事","value":1},{"name":"笔记","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -572,7 +590,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["笔记","Markdown"]
+                data: ["Markdown","故事","java"]
             }
         ],
         yAxis: [
@@ -585,7 +603,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{

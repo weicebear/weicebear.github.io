@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>Java基础-笔记</title>
-      <link href="/2020/05/27/java-ji-chu-bi-ji/"/>
-      <url>/2020/05/27/java-ji-chu-bi-ji/</url>
+      <title>活了100万次的猫</title>
+      <link href="/2021/03/14/huo-liao-100-wan-ci-de-mao/"/>
+      <url>/2021/03/14/huo-liao-100-wan-ci-de-mao/</url>
       
-        <content type="html"><![CDATA[<h1 id="Java学习"><a href="#Java学习" class="headerlink" title="Java学习"></a>Java学习</h1><h2 id="day01-Java开发环境的搭建"><a href="#day01-Java开发环境的搭建" class="headerlink" title="day01:Java开发环境的搭建"></a>day01:Java开发环境的搭建</h2><h3 id="1、常用的DOS命令"><a href="#1、常用的DOS命令" class="headerlink" title="1、常用的DOS命令"></a>1、常用的DOS命令</h3><h4 id="1-1、怎么打开DOS命令窗口"><a href="#1-1、怎么打开DOS命令窗口" class="headerlink" title="1.1、怎么打开DOS命令窗口"></a>1.1、怎么打开DOS命令窗口</h4><p>​        win键 + r （组合键）：可以打开“运行”窗口在运行窗口文本框中输入: cmd 然后回车</p><h4 id="1-2、什么是DOS命令呢？"><a href="#1-2、什么是DOS命令呢？" class="headerlink" title="1.2、什么是DOS命令呢？"></a>1.2、什么是DOS命令呢？</h4><p>​        在DOS命令窗口中才可以输入并执行DOS命令。<br>        在最初的windows计算机中没有图形界面的，只有DOS命令窗口。<br>        也就是说通过执行DOS命令窗口可以完全完成文件的新建、编辑、保存、删除<br>        等一系列操作。</p><h4 id="1-3、mkdir-abc（这个命令不是必须掌握的）make-directory（创建目录）"><a href="#1-3、mkdir-abc（这个命令不是必须掌握的）make-directory（创建目录）" class="headerlink" title="1.3、mkdir abc（这个命令不是必须掌握的）make directory（创建目录）"></a>1.3、mkdir abc（这个命令不是必须掌握的）make directory（创建目录）</h4><p>​        创建一个目录，起名abc</p><h4 id="1-4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？"><a href="#1-4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？" class="headerlink" title="1.4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？"></a>1.4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？</h4><p>​        C:\Users\Administrator 这是默认的当前路径</p><h4 id="1-5、在DOS命令窗口中怎么复制内容？"><a href="#1-5、在DOS命令窗口中怎么复制内容？" class="headerlink" title="1.5、在DOS命令窗口中怎么复制内容？"></a>1.5、在DOS命令窗口中怎么复制内容？</h4><p>​        win7:<br>            任意位置点击右键–&gt;标记–&gt;选中要复制的内容–&gt;点击右键–&gt;此时就到剪贴板里面了<br>        win10：<br>            左键直接选中，然后右键单击一下就到剪贴板里面了。</p><h4 id="1-6、切换盘符？"><a href="#1-6、切换盘符？" class="headerlink" title="1.6、切换盘符？"></a>1.6、切换盘符？</h4><p>直接输入盘符就行：    c: 回车  </p><p>​                    d: 回车</p><p>​                    e: 回车  </p><p>​                    f: 回车  </p><p>​                        就OK了。</p><p>​        当切换到D盘根下了，那么当前路径就是：D:&gt;<br>        当前路径是当前所在的位置。</p><h4 id="1-7、切换目录？（非常重要，必须掌握）"><a href="#1-7、切换目录？（非常重要，必须掌握）" class="headerlink" title="1.7、切换目录？（非常重要，必须掌握）"></a>1.7、切换目录？（非常重要，必须掌握）</h4><p>​    使用cd命令来完成目录的切换：cd是什么含义？change directory（改变目录）<br>    cd命令怎么用，语法格式是什么？<br>        cd 路径<br>    路径在windows系统上包括：相对路径和绝对路径。</p><p>​    什么是相对路径呢？<br>        一定要注意，从路径形式上来看，相对路径是一定不会以盘符开始的。<br>        相对路径：相对路径一定是相对于当前所在“位置”而言的。<br>        相对路径是相对于当前而言，从当前所在的位置作为起点。</p><p>​        死记：相对路径一定是从当前位置作为起点开始找。</p><p>​    什么是绝对路径呢？<br>        在windows操作系统中凡是路径起点是盘符的都是绝对路径，例如：<br>            C:\Users\Administrator<br>            C:\Users<br>            C:\Users\Public\gakataka<br>            C:\Windows\System32<br>            D:\BaiduNetdiskDownload<br>            D:\course\01-开课\OneNote</p><p>​    注意：<br>        cd .. 回到上级路径。<br>        cd \ 直接回到根路径。<br>        . 一个点，代表当前路径。（cd命令用不着。以后配置环境变量的时候一个点有用处。）</p><h4 id="1-8、cls-清屏"><a href="#1-8、cls-清屏" class="headerlink" title="1.8、cls 清屏"></a>1.8、cls 清屏</h4><h4 id="1-9、dir-查看当前目录下有啥东西。"><a href="#1-9、dir-查看当前目录下有啥东西。" class="headerlink" title="1.9、dir 查看当前目录下有啥东西。"></a>1.9、dir 查看当前目录下有啥东西。</h4><h4 id="1-10、exit-退出DOS命令窗口。"><a href="#1-10、exit-退出DOS命令窗口。" class="headerlink" title="1.10、exit 退出DOS命令窗口。"></a>1.10、exit 退出DOS命令窗口。</h4>]]></content>
+        <content type="html"><![CDATA[<center><h1> 活了100万次的猫</h1> </center><p>有一次，猫是国王的猫。</p><p>猫讨厌国王。</p><p>国王爱打仗，总是发动战争。</p><p>打仗时，国王把猫装在漂亮的篮子里，带在身边。</p><p>有一天，猫被一支飞来的箭射死了。</p><p>国王仗也不打了，回到了王宫，</p><p>然后，他把猫埋到了王宫的院子里。</p><hr><p>有一次，猫是水手的猫。</p><p>猫讨厌水手。</p><p>水手带着猫周游了全世界的大海和全世界的码头。</p><p>有一天，猫从船上掉到了海里。</p><p>猫不会游泳，水手赶紧用网把猫捞了上来，</p><p>可猫还是淹死了。</p><p>水手抱着像一块湿抹布似的猫，大哭起来。</p><p>然后，他把猫带到远方的一座海港城市，埋在公园的树下。</p><hr><p>有一次，猫是马戏团魔术师的猫。</p><p>猫讨厌什么马戏团。</p><p>魔术师每天把猫装到一个大箱子里，用锯子锯成两半儿，</p><p>然后把完好无损的猫从箱子里抱出来，换来一片热烈的掌声。</p><p>有一天，魔术师失手了，真的把猫锯成了两半儿。</p><p>魔术师两手拎着两半儿的猫，大声地哭了起来。</p><p>这次，谁也没有鼓掌。</p><p>魔术师把猫埋到了马戏团的后院。</p><hr><p>有一次，猫是小偷的猫。</p><p>猫讨厌什么小偷。</p><p>小偷领着猫，在天色漆黑的小镇上，像猫一样悄悄地转来转去。</p><p>小偷只偷有狗的人家。</p><p>趁着狗冲猫汪汪叫的时候，小偷撬开保险柜。</p><p>有一天，猫被狗咬死了。</p><p>小偷抱着死猫和偷来的钻石，在夜晚的小镇边走边哭。</p><p>然后，他回到家里，把猫埋到了小院子里。</p><hr><p>有一次，猫是一个孤独老太太的猫</p><p>猫讨厌什么老太太。</p><p>老太太每天抱着猫，从小窗户往外看。</p><p>猫整天在老太太的腿上睡大觉。</p><p>不久，猫老死了。</p><p>一步一晃的老太太抱着死了的猫，</p><p>哭了一整天。</p><p>老太太把猫埋到了院子的树底下。</p><hr><p>有一次，猫是一个小女孩的猫。</p><p>猫讨厌什么小女孩。</p><p>小女孩有时候把猫放在背上玩，有时紧紧地搂着猫睡觉。</p><p>小女孩哭的时候，还用猫背擦眼泪。</p><p>有一天，猫背小女孩肩上的带子勒死了。</p><p>小女孩抱着耷拉着脑袋的猫，哭了一整天。</p><p>然后，她把猫埋到了院子的大树下。</p><hr><p>猫已经不在乎死不死了。</p><hr><p>后来，猫不再是别人的猫了。</p><p>他成了一只野猫。</p><p>猫头一次成了自己的猫。</p><p>猫太喜欢自己了。</p><p>怎么说呢？漂亮的虎斑猫终于变成了漂亮的野猫。</p><hr><p>不管是哪一只猫，都想成为他的新娘。</p><p>有的送条大鱼当礼物，有的献上新鲜的老鼠，</p><p>有的送来了稀罕的草药，还有的去舔他那漂亮的虎斑纹。</p><p>可他却说：</p><p>“我可死过100万次呢！我才不吃你们这一套！”</p><p>因为他比谁都喜欢自己。</p><hr><p>只有一只猫，连看也不看他一眼。那是一只美丽的白猫。</p><p>虎斑猫走过去对白猫说：“我可死过100万次呢！”</p><p>“噢。”</p><p>白猫吭了一声。</p><p>虎斑猫有点生气了，怎么说呢？因为他太喜欢自己了。</p><p>第二天、第三天，他都走到白猫的身边，说：</p><p>“你连一次也没活完吧？”</p><p>“噢。”</p><p>白猫吭了一声。</p><hr><p>有一天，虎斑猫在白猫面前一连翻了三个跟头，然后说：</p><p>“我呀，还当过马戏团的猫呢。”</p><p>“噢。”</p><p>白猫吭了一声。</p><p>“我呀，死过100万次……”</p><p>说到一半的时候，他问白猫：“我能待在你的身边吗？”</p><p>“好吧。”</p><p>白猫说。</p><p>就这样，虎斑猫一直待在了白猫身边。</p><hr><p>白猫生了好多可爱的小猫。</p><p>虎斑猫再也不说“我呀，我死过100万次……”了。</p><p>他喜欢白猫和小猫们，胜过喜欢自己。</p><hr><p>小猫们长大了，一个个离开了父母。</p><p>”他们都成了漂亮的野猫啦。“</p><p>“噢。”</p><p>白猫说。她的嗓子眼儿里发出了轻柔的“咕噜咕噜”声。</p><p>白猫慢慢地老了。</p><p>虎斑猫对白猫更体贴了，他的嗓子眼儿里也发出了“咕噜咕噜”声。</p><p>他多想和白猫永远地一起活下去呀！</p><hr><p>有一天，白猫静静地躺倒在虎斑猫的怀里，一动也不动了。</p><p>虎斑猫抱着白猫，流下了大滴大滴的眼泪，他头一次哭了。</p><p>从晚上哭到早上，又从早上哭到晚上，哭啊哭啊，</p><p>他哭了有100万次。</p><p>早上、晚上……</p><p>一天中午，他的哭声停止了。</p><p>虎斑猫静静地，一动不动地躺在了白猫的身边。</p><hr><p>他再也没有活过来</p>]]></content>
       
       
       <categories>
           
-          <category> Java基础 </category>
+          <category> 故事 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 笔记 </tag>
+            <tag> 故事 </tag>
             
         </tags>
       
@@ -29,7 +29,32 @@
     
     
     <entry>
-      <title>我的第一篇文章</title>
+      <title>java学习Dos命令</title>
+      <link href="/2020/05/27/java-ji-chu-bi-ji/"/>
+      <url>/2020/05/27/java-ji-chu-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java学习"><a href="#Java学习" class="headerlink" title="Java学习"></a>Java学习</h1><h2 id="Java开发环境的搭建"><a href="#Java开发环境的搭建" class="headerlink" title="Java开发环境的搭建"></a>Java开发环境的搭建</h2><h3 id="1、常用的DOS命令"><a href="#1、常用的DOS命令" class="headerlink" title="1、常用的DOS命令"></a>1、常用的DOS命令</h3><h4 id="1-1、怎么打开DOS命令窗口"><a href="#1-1、怎么打开DOS命令窗口" class="headerlink" title="1.1、怎么打开DOS命令窗口"></a>1.1、怎么打开DOS命令窗口</h4><p>​        win键 + r （组合键）：可以打开“运行”窗口在运行窗口文本框中输入: cmd 然后回车</p><h4 id="1-2、什么是DOS命令呢？"><a href="#1-2、什么是DOS命令呢？" class="headerlink" title="1.2、什么是DOS命令呢？"></a>1.2、什么是DOS命令呢？</h4><p>​        在DOS命令窗口中才可以输入并执行DOS命令。<br>        在最初的windows计算机中没有图形界面的，只有DOS命令窗口。<br>        也就是说通过执行DOS命令窗口可以完全完成文件的新建、编辑、保存、删除<br>        等一系列操作。</p><h4 id="1-3、mkdir-abc（这个命令不是必须掌握的）make-directory（创建目录）"><a href="#1-3、mkdir-abc（这个命令不是必须掌握的）make-directory（创建目录）" class="headerlink" title="1.3、mkdir abc（这个命令不是必须掌握的）make directory（创建目录）"></a>1.3、mkdir abc（这个命令不是必须掌握的）make directory（创建目录）</h4><p>​        创建一个目录，起名abc</p><h4 id="1-4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？"><a href="#1-4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？" class="headerlink" title="1.4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？"></a>1.4、默认情况下DOS命令窗口打开之后，定位的位置是哪里？</h4><p>​        C:\Users\Administrator 这是默认的当前路径</p><h4 id="1-5、在DOS命令窗口中怎么复制内容？"><a href="#1-5、在DOS命令窗口中怎么复制内容？" class="headerlink" title="1.5、在DOS命令窗口中怎么复制内容？"></a>1.5、在DOS命令窗口中怎么复制内容？</h4><p>​        win7:<br>            任意位置点击右键–&gt;标记–&gt;选中要复制的内容–&gt;点击右键–&gt;此时就到剪贴板里面了<br>        win10：<br>            左键直接选中，然后右键单击一下就到剪贴板里面了。</p><h4 id="1-6、切换盘符？"><a href="#1-6、切换盘符？" class="headerlink" title="1.6、切换盘符？"></a>1.6、切换盘符？</h4><p>直接输入盘符就行：    c: 回车  </p><p>​                    d: 回车</p><p>​                    e: 回车  </p><p>​                    f: 回车  </p><p>​                        就OK了。</p><p>​        当切换到D盘根下了，那么当前路径就是：D:&gt;<br>        当前路径是当前所在的位置。</p><h4 id="1-7、切换目录？（非常重要，必须掌握）"><a href="#1-7、切换目录？（非常重要，必须掌握）" class="headerlink" title="1.7、切换目录？（非常重要，必须掌握）"></a>1.7、切换目录？（非常重要，必须掌握）</h4><p>​    使用cd命令来完成目录的切换：cd是什么含义？change directory（改变目录）<br>    cd命令怎么用，语法格式是什么？<br>        cd 路径<br>    路径在windows系统上包括：相对路径和绝对路径。</p><p>​    什么是相对路径呢？<br>        一定要注意，从路径形式上来看，相对路径是一定不会以盘符开始的。<br>        相对路径：相对路径一定是相对于当前所在“位置”而言的。<br>        相对路径是相对于当前而言，从当前所在的位置作为起点。</p><p>​        死记：相对路径一定是从当前位置作为起点开始找。</p><p>​    什么是绝对路径呢？<br>        在windows操作系统中凡是路径起点是盘符的都是绝对路径，例如：<br>            C:\Users\Administrator<br>            C:\Users<br>            C:\Users\Public\gakataka<br>            C:\Windows\System32<br>            D:\BaiduNetdiskDownload<br>            D:\course\01-开课\OneNote</p><p>​    注意：<br>        cd .. 回到上级路径。<br>        cd \ 直接回到根路径。<br>        . 一个点，代表当前路径。（cd命令用不着。以后配置环境变量的时候一个点有用处。）</p><h4 id="1-8、cls-清屏"><a href="#1-8、cls-清屏" class="headerlink" title="1.8、cls 清屏"></a>1.8、cls 清屏</h4><h4 id="1-9、dir-查看当前目录下有啥东西。"><a href="#1-9、dir-查看当前目录下有啥东西。" class="headerlink" title="1.9、dir 查看当前目录下有啥东西。"></a>1.9、dir 查看当前目录下有啥东西。</h4><h4 id="1-10、exit-退出DOS命令窗口。"><a href="#1-10、exit-退出DOS命令窗口。" class="headerlink" title="1.10、exit 退出DOS命令窗口。"></a>1.10、exit 退出DOS命令窗口。</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown</title>
       <link href="/2020/05/25/wo-de-di-yi-pian-wen-zhang/"/>
       <url>/2020/05/25/wo-de-di-yi-pian-wen-zhang/</url>
       
